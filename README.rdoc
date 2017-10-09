@@ -23,6 +23,8 @@ command to start the rails server:
 
 rails server -p $PORT -b $IP
 
+rake db:test:prepare
+
 (If you are running the app in an environment other than our class Cloud9 workspace,
 the command for starting the rails server might be slightly different)
 
